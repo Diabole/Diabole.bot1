@@ -10,7 +10,7 @@ class Bot(BaseBot):
         await self.highrise.walk_to(Position(16.5 , 11.25 , 1.5 , "FrontRight"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
-        await self.highrise.send_whisper(user.id,f"❤️Добро пожаловать [{user.username}] Используйте: [!emote list] или [1-97] для списка эмоций ")
+        await self.highrise.send_whisper(user.id,f"❤️Добро пожаловать [{user.username}] Используйте: [!emote list] или [1-97] ")
 
         await self.highrise.send_whisper(user.id,f"❤️Используйте: [!help] для получения дополнительной информации. ")
              
