@@ -13,8 +13,6 @@ class Bot(BaseBot):
         await self.highrise.send_whisper(user.id,f"❤️Добро пожаловать [{user.username}] Используйте: [!emote list] или [1-97] ")
 
         await self.highrise.send_whisper(user.id,f"❤️Используйте: [!help] для получения дополнительной информации. ")
-             
-              await self.highrise.send_whisper(user.id,f"❤️[Купить бота] Позвоните [__tvoy__] лично. ")
 
             await self.highrise.send_emote("hcc-jetpack")
       
